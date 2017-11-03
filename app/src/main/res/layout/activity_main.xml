@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.md.mdview.MainActivity"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toolbar示例"
+        android:background="@mipmap/btn_bg"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/appbarlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="appbarlayout示例"
+        android:background="@mipmap/btn_bg"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简单折叠布局"
+        android:textColor="#fff"
+        android:background="@mipmap/btn_bg"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/coordinator_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复杂折叠布局"
+        android:textColor="#fff"
+        android:background="@mipmap/btn_bg"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"/>
+
+</LinearLayout>

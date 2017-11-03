@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@mipmap/bg"
+                app:layout_collapseMode="parallax"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:background="#000"
+                app:layout_collapseMode="pin"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="43.电子取景
+
+　　电子取景器(evf)，使用电子取景的视野率比光学取景器就大得多，如sony dsc-f707的evf的视野率就达到99%。而电子取景器也较为实用，这种取景方式不仅价格较便宜，使用时很省电，而且能在任何环境光线下采用。尽管取景器中的画面视角和色彩效果与最终结果不全相同，但使用一段时间后还是很快就会适应的。
+
+44.光学取景器
+
+　　传统普及型相机里常用的那种通过一组与拍摄镜头无关(高档傻瓜机上常与变焦镜头连动)的透镜取景的部件，造价低，但有视差，所看到的并不完全是所拍到的。
+
+45.普通光学取景
+
+　　这是最常见的取景方式，其唯一的缺点就是取景误差大。用过数码相机的朋友一定知道，数码相机的光学取景器在近距离拍摄时，上下左右位置误差与实际拍摄景像的误差很大(远距离不是特别明显)，一般说来光学取景器看到的景像约占实际拍摄景像的85%。
+
+46.防红眼功能
+
+　　指在用闪光灯拍摄人像时，由于被摄者眼底血管的反光，使拍出照片上人的眼睛中有一个红点的现象。但一般现在的主流数码相机都具有防红眼功能，不过如果不打开的话，依旧不会起作用。
+
+47.防手震功能
+
+　　数码相机的防手震功能有两种：一是光学的，一是数码的。光学的防手震和传统相机是一样的，是在成像光路中设置特使设计的镜片，能够感知相机的震动，并根据震动的特点与程度自动调整光路，使成像稳定。而数码的防手震是通过软件计算的方法，利用成像扫描过程与机械快门开启的过程相互配合校正震动的影响，获取稳定的画面。一般而言，设计精良的光学防手震系统效果要可*、真实一些。
+
+48.自动省电功能
+
+　　如果照相机在15秒以内无论何种原因没有使用，自动省电功能将起作用而关闭液晶显示(睡眠模式)，这样可以避免电池不必要的耗电或者在照相机与电源ac适配器相连时防止电源电能消耗，当相机更长一段时间后还未使用时，自动省电功能将关闭相机电源，这个时间长度可以在相机上设定，可以是2到5分钟。
+
+49.定焦相机
+
+　　是指使用固定焦距镜头的相机。一般说来，使用定焦镜头的相机要比同档价格的变焦机体积小，成像质量也更胜一筹，选择这类相机的消费者看中的往往就是相机小巧的体积和出色的镜头质量。
+
+50.变焦相机
+
+　　简单说就是指相机使用的镜头焦距可以调节改变，这样我们可以通过改变镜头焦距来获得不同的视觉和拍摄效果。现在的优秀变焦相机不仅拥有完全令人放心和满意的优质变焦镜头，能让使用者通过变换焦距来调节构图从而获得更满意的拍摄结果，设计者也非常注重突出它们时尚小巧漂亮的外型特点。"/>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

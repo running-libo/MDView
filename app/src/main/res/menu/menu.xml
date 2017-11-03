@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_1"
+          android:title="菜单1"
+          android:icon="@mipmap/make_music_voice_changer_female"
+          app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/menu_2"
+        android:title="菜单2"
+        android:icon="@mipmap/make_music_voice_changer_female"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_3"
+        android:title="菜单3"
+        android:icon="@mipmap/make_music_voice_changer_female"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_4"
+        android:title="菜单4"
+        android:icon="@mipmap/make_music_voice_changer_female"
+        app:showAsAction="ifRoom"/>
+</menu>

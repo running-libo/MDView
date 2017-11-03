@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.md.mdview.CoordinatorLayoutActivity">
+
+    <View
+        android:id="@+id/view_girl"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="200dp"
+        android:background="@mipmap/make_music_voice_changer_female" />
+
+    <View
+        android:id="@+id/view_uncle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/make_music_voice_changer_uncle"
+        app:layout_behavior="com.example.md.mdview.RunBehavior"/>
+</android.support.design.widget.CoordinatorLayout>
